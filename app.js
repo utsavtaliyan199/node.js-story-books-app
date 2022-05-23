@@ -9,6 +9,10 @@ const methodOverride = require('method-override');
 const passport = require('passport');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
+const myPassport = require('./config/passport')
+const routes = require('./routes')
+const authRoutes = require('./routes/auth')
+const storiesRoutes = require('./routes/stories')
 
 // Load config
 dotenv.config({
