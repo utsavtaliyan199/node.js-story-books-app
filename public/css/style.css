@@ -1,0 +1,25 @@
+p{
+    margin : 10px 0 !important;
+    /* We put the important flag here to override anything with materialize
+    for certain things we use this flag to override
+    */
+}
+
+.login-container{
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fa-small{
+    font-size: 16px !important;
+}
+
+.btn-float{
+    float : left;
+    margin-right: 10px;
+}
+
+.img-small{
+    width: 180px;
+}
